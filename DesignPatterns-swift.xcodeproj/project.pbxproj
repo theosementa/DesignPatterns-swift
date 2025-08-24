@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D90843EC2E5B8AD40077F9C5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D90843EB2E5B8ACE0077F9C5 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D90843CF2E5B8A7B0077F9C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		D90843C12E5B8A790077F9C5 /* DesignPatterns-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90843CE2E5B8A7B0077F9C5 /* DesignPatterns-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignPatterns-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90843D82E5B8A7B0077F9C5 /* DesignPatterns-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignPatterns-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90843EB2E5B8ACE0077F9C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		D90843B82E5B8A790077F9C5 = {
 			isa = PBXGroup;
 			children = (
+				D90843EB2E5B8ACE0077F9C5 /* README.md */,
 				D90843C32E5B8A790077F9C5 /* DesignPatterns-swift */,
 				D90843D12E5B8A7B0077F9C5 /* DesignPatterns-swiftTests */,
 				D90843DB2E5B8A7B0077F9C5 /* DesignPatterns-swiftUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90843EC2E5B8AD40077F9C5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
