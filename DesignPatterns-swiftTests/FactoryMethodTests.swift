@@ -8,7 +8,7 @@
 import Testing
 @testable import DesignPatterns_swift
 
-struct FactoryMethodTests_swiftTests {
+struct FactoryMethodTests {
   
   @Test
   func seaLogisticsTest() async throws {
