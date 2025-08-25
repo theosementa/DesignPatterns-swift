@@ -1,5 +1,5 @@
 //
-//  Logistics.swift
+//  RoadLogistics.swift
 //  DesignPatterns-swift
 //
 //  Created by Theo Sementa on 24/08/2025.
@@ -7,18 +7,18 @@
 
 import Foundation
 
-protocol Logistics {
-  var isDelivered: Bool { get set }
-  func createTransport() -> Transport
-}
-
-extension Logistics {
+final class RoadLogistics: Logistics {
   
-  mutating func planDelivery() {
+  var isDelivered: Bool = false
+  
+  func createTransport() -> Transport {
+    return Truck()
+  }
+  
+  func planDelivery() {
     let transport = createTransport()
     transport.deliver()
     isDelivered = true
   }
   
 }
-

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+  // MARK: -
   var body: some View {
     NavigationStack {
       List {
@@ -18,11 +20,16 @@ struct ContentView: View {
         NavigationLink(destination: BuilderScreen()) {
           Text("Builder")
         }
+        
+        NavigationLink(destination: FactoryMethodScreen()) {
+          Text("Factory Method")
+        }
       }
     }
   }
 }
 
+// MARK: - Preview
 #Preview {
   ContentView()
 }
