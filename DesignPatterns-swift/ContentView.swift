@@ -24,6 +24,10 @@ struct ContentView: View {
         NavigationLink(destination: FactoryMethodScreen()) {
           Text("Factory Method")
         }
+        
+        NavigationLink(destination: PrototypeScreen()) {
+          Text("Prototype")
+        }
       }
     }
   }
