@@ -28,6 +28,10 @@ struct ContentView: View {
         NavigationLink(destination: PrototypeScreen()) {
           Text("Prototype")
         }
+        
+        NavigationLink(destination: SingletonScreen()) {
+          Text("Singleton")
+        }
       }
     }
   }
